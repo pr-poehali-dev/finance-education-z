@@ -2,6 +2,7 @@ import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
 import LearningModules from "@/components/LearningModules";
 import FinancialDashboard from "@/components/FinancialDashboard";
+import MVPValidation from "@/components/MVPValidation";
 
 const Index = () => {
   return (
@@ -10,6 +11,7 @@ const Index = () => {
       <Hero />
       <LearningModules />
       <FinancialDashboard />
+      <MVPValidation />
     </div>
   );
 };
